@@ -30,7 +30,7 @@ class Tiago(ManipulatorModel):
         Returns:
             dict: Dictionary containing arm-specific gripper names
         """
-        return {"right": "Robotiq85Gripper", "left": "Robotiq85Gripper"}
+        return {"right": "Robotiq140Gripper", "left": "Robotiq140Gripper"}
 
     @property
     def default_controller_config(self):
